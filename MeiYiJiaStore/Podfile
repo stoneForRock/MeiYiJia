@@ -1,0 +1,29 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'MeiYiJiaStore' do
+    pod 'Masonry','~> 1.0.2'
+    pod 'SocketRocket','~> 0.4.2'            #WebSocket库
+    pod 'YYKit'
+    pod 'SDWebImage','~> 3.8.2'
+    pod 'MBProgressHUD','~> 1.0.0'
+    pod 'AFNetworking', '~> 3.1.0'          #网络请求
+    pod 'JSONModel', '~> 1.7.0'             #模型解析转换用
+    pod 'Reachability', '~>3.1.0'
+    pod 'FDStackView', '~> 1.0'
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for MeiYiJiaStore
+
+  target 'MeiYiJiaStoreTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MeiYiJiaStoreUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

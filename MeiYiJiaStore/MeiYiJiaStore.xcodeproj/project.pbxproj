@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02D066A094167A81D0F3D834 /* libPods-MeiYiJiaStoreTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1169210BCE4A1F5164AB28 /* libPods-MeiYiJiaStoreTests.a */; };
+		ACBE4C129CEF9CD12604EB9B /* libPods-MeiYiJiaStoreUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B98CCDE9C65CDC3B62EFB6F /* libPods-MeiYiJiaStoreUITests.a */; };
+		D7EB7E2531C9AC05B9BB6FBE /* libPods-MeiYiJiaStore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F617E82E6E60AFF24B9E410 /* libPods-MeiYiJiaStore.a */; };
 		E5B69AB42142C90400ECBFC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B69AB32142C90400ECBFC5 /* AppDelegate.m */; };
-		E5B69AB72142C90400ECBFC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B69AB62142C90400ECBFC5 /* ViewController.m */; };
-		E5B69ABA2142C90400ECBFC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5B69AB82142C90400ECBFC5 /* Main.storyboard */; };
 		E5B69ABC2142C90500ECBFC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5B69ABB2142C90500ECBFC5 /* Assets.xcassets */; };
 		E5B69ABF2142C90500ECBFC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5B69ABD2142C90500ECBFC5 /* LaunchScreen.storyboard */; };
 		E5B69AC22142C90500ECBFC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B69AC12142C90500ECBFC5 /* main.m */; };
 		E5B69ACC2142C90500ECBFC5 /* MeiYiJiaStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B69ACB2142C90500ECBFC5 /* MeiYiJiaStoreTests.m */; };
 		E5B69AD72142C90500ECBFC5 /* MeiYiJiaStoreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B69AD62142C90500ECBFC5 /* MeiYiJiaStoreUITests.m */; };
+		E5F5783E214E848000336682 /* AppDelegate+Privacy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F5783D214E848000336682 /* AppDelegate+Privacy.m */; };
+		E5F57841214E849100336682 /* AppDelegate+PushNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F57840214E849100336682 /* AppDelegate+PushNotification.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +38,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07B86B388907BC4CA8310C9A /* Pods-MeiYiJiaStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeiYiJiaStore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeiYiJiaStore/Pods-MeiYiJiaStore.debug.xcconfig"; sourceTree = "<group>"; };
+		0B98CCDE9C65CDC3B62EFB6F /* libPods-MeiYiJiaStoreUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MeiYiJiaStoreUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28CC386E3B03F2644A620F7C /* Pods-MeiYiJiaStoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeiYiJiaStoreUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeiYiJiaStoreUITests/Pods-MeiYiJiaStoreUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3F617E82E6E60AFF24B9E410 /* libPods-MeiYiJiaStore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MeiYiJiaStore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		459BDE3209A9CB276DCAAD28 /* Pods-MeiYiJiaStoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeiYiJiaStoreTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeiYiJiaStoreTests/Pods-MeiYiJiaStoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B896D73FAD5204D82CBE16F7 /* Pods-MeiYiJiaStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeiYiJiaStore.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeiYiJiaStore/Pods-MeiYiJiaStore.release.xcconfig"; sourceTree = "<group>"; };
+		BE1169210BCE4A1F5164AB28 /* libPods-MeiYiJiaStoreTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MeiYiJiaStoreTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C56030930C40452840EFC675 /* Pods-MeiYiJiaStoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeiYiJiaStoreUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeiYiJiaStoreUITests/Pods-MeiYiJiaStoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E590EC2BCCEBFEF9F80B4592 /* Pods-MeiYiJiaStoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeiYiJiaStoreTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeiYiJiaStoreTests/Pods-MeiYiJiaStoreTests.release.xcconfig"; sourceTree = "<group>"; };
 		E5B69AAF2142C90400ECBFC5 /* MeiYiJiaStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeiYiJiaStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B69AB22142C90400ECBFC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E5B69AB32142C90400ECBFC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E5B69AB52142C90400ECBFC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E5B69AB62142C90400ECBFC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E5B69AB92142C90400ECBFC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5B69ABB2142C90500ECBFC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5B69ABE2142C90500ECBFC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5B69AC02142C90500ECBFC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +60,11 @@
 		E5B69AD22142C90500ECBFC5 /* MeiYiJiaStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeiYiJiaStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B69AD62142C90500ECBFC5 /* MeiYiJiaStoreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeiYiJiaStoreUITests.m; sourceTree = "<group>"; };
 		E5B69AD82142C90500ECBFC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5F5783B214E841A00336682 /* MeiYiJiaStore-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MeiYiJiaStore-Prefix.pch"; sourceTree = "<group>"; };
+		E5F5783C214E848000336682 /* AppDelegate+Privacy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Privacy.h"; sourceTree = "<group>"; };
+		E5F5783D214E848000336682 /* AppDelegate+Privacy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Privacy.m"; sourceTree = "<group>"; };
+		E5F5783F214E849100336682 /* AppDelegate+PushNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+PushNotification.h"; sourceTree = "<group>"; };
+		E5F57840214E849100336682 /* AppDelegate+PushNotification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+PushNotification.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7EB7E2531C9AC05B9BB6FBE /* libPods-MeiYiJiaStore.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02D066A094167A81D0F3D834 /* libPods-MeiYiJiaStoreTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +88,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACBE4C129CEF9CD12604EB9B /* libPods-MeiYiJiaStoreUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3951FC9899DAE3D8A7AFC3A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F617E82E6E60AFF24B9E410 /* libPods-MeiYiJiaStore.a */,
+				BE1169210BCE4A1F5164AB28 /* libPods-MeiYiJiaStoreTests.a */,
+				0B98CCDE9C65CDC3B62EFB6F /* libPods-MeiYiJiaStoreUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86FDAF226AE64557F6158734 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07B86B388907BC4CA8310C9A /* Pods-MeiYiJiaStore.debug.xcconfig */,
+				B896D73FAD5204D82CBE16F7 /* Pods-MeiYiJiaStore.release.xcconfig */,
+				459BDE3209A9CB276DCAAD28 /* Pods-MeiYiJiaStoreTests.debug.xcconfig */,
+				E590EC2BCCEBFEF9F80B4592 /* Pods-MeiYiJiaStoreTests.release.xcconfig */,
+				C56030930C40452840EFC675 /* Pods-MeiYiJiaStoreUITests.debug.xcconfig */,
+				28CC386E3B03F2644A620F7C /* Pods-MeiYiJiaStoreUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E5B69AA62142C90400ECBFC5 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +125,8 @@
 				E5B69ACA2142C90500ECBFC5 /* MeiYiJiaStoreTests */,
 				E5B69AD52142C90500ECBFC5 /* MeiYiJiaStoreUITests */,
 				E5B69AB02142C90400ECBFC5 /* Products */,
+				86FDAF226AE64557F6158734 /* Pods */,
+				3951FC9899DAE3D8A7AFC3A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +143,9 @@
 		E5B69AB12142C90400ECBFC5 /* MeiYiJiaStore */ = {
 			isa = PBXGroup;
 			children = (
-				E5B69AB22142C90400ECBFC5 /* AppDelegate.h */,
-				E5B69AB32142C90400ECBFC5 /* AppDelegate.m */,
-				E5B69AB52142C90400ECBFC5 /* ViewController.h */,
-				E5B69AB62142C90400ECBFC5 /* ViewController.m */,
-				E5B69AB82142C90400ECBFC5 /* Main.storyboard */,
-				E5B69ABB2142C90500ECBFC5 /* Assets.xcassets */,
-				E5B69ABD2142C90500ECBFC5 /* LaunchScreen.storyboard */,
-				E5B69AC02142C90500ECBFC5 /* Info.plist */,
-				E5B69AC12142C90500ECBFC5 /* main.m */,
+				E5F57835214E819E00336682 /* Classes */,
+				E5F57837214E81C600336682 /* Resource */,
+				E5F57836214E81A600336682 /* SupportingFiles */,
 			);
 			path = MeiYiJiaStore;
 			sourceTree = "<group>";
@@ -132,6 +168,102 @@
 			path = MeiYiJiaStoreUITests;
 			sourceTree = "<group>";
 		};
+		E5F57835214E819E00336682 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E5F57838214E82CC00336682 /* AppDelegate */,
+				E5F57839214E82D600336682 /* Modules */,
+				E5F5783A214E82DE00336682 /* Foundation */,
+				E5F57842214E849900336682 /* Network */,
+				E5F57843214E84A300336682 /* Services */,
+				E5F57846214E84BB00336682 /* Utility */,
+				E5F57844214E84AD00336682 /* Style */,
+				E5F57845214E84B400336682 /* ThirdParts */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E5F57836214E81A600336682 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				E5B69ABD2142C90500ECBFC5 /* LaunchScreen.storyboard */,
+				E5B69AC02142C90500ECBFC5 /* Info.plist */,
+				E5B69AC12142C90500ECBFC5 /* main.m */,
+				E5F5783B214E841A00336682 /* MeiYiJiaStore-Prefix.pch */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		E5F57837214E81C600336682 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				E5B69ABB2142C90500ECBFC5 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		E5F57838214E82CC00336682 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				E5B69AB22142C90400ECBFC5 /* AppDelegate.h */,
+				E5B69AB32142C90400ECBFC5 /* AppDelegate.m */,
+				E5F5783C214E848000336682 /* AppDelegate+Privacy.h */,
+				E5F5783D214E848000336682 /* AppDelegate+Privacy.m */,
+				E5F5783F214E849100336682 /* AppDelegate+PushNotification.h */,
+				E5F57840214E849100336682 /* AppDelegate+PushNotification.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		E5F57839214E82D600336682 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		E5F5783A214E82DE00336682 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		E5F57842214E849900336682 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E5F57843214E84A300336682 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E5F57844214E84AD00336682 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		E5F57845214E84B400336682 /* ThirdParts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdParts;
+			sourceTree = "<group>";
+		};
+		E5F57846214E84BB00336682 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +271,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5B69ADB2142C90500ECBFC5 /* Build configuration list for PBXNativeTarget "MeiYiJiaStore" */;
 			buildPhases = (
+				C4E69651B07E9D3B30310891 /* [CP] Check Pods Manifest.lock */,
 				E5B69AAB2142C90400ECBFC5 /* Sources */,
 				E5B69AAC2142C90400ECBFC5 /* Frameworks */,
 				E5B69AAD2142C90400ECBFC5 /* Resources */,
@@ -156,6 +289,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5B69ADE2142C90500ECBFC5 /* Build configuration list for PBXNativeTarget "MeiYiJiaStoreTests" */;
 			buildPhases = (
+				BD7B28F188E07309A2A049CD /* [CP] Check Pods Manifest.lock */,
 				E5B69AC32142C90500ECBFC5 /* Sources */,
 				E5B69AC42142C90500ECBFC5 /* Frameworks */,
 				E5B69AC52142C90500ECBFC5 /* Resources */,
@@ -174,6 +308,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5B69AE12142C90500ECBFC5 /* Build configuration list for PBXNativeTarget "MeiYiJiaStoreUITests" */;
 			buildPhases = (
+				B4D41E2329B33FD51BAB542F /* [CP] Check Pods Manifest.lock */,
 				E5B69ACE2142C90500ECBFC5 /* Sources */,
 				E5B69ACF2142C90500ECBFC5 /* Frameworks */,
 				E5B69AD02142C90500ECBFC5 /* Resources */,
@@ -194,6 +329,7 @@
 		E5B69AA72142C90400ECBFC5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MYJ;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = MeiYiJia;
 				TargetAttributes = {
@@ -237,7 +373,6 @@
 			files = (
 				E5B69ABF2142C90500ECBFC5 /* LaunchScreen.storyboard in Resources */,
 				E5B69ABC2142C90500ECBFC5 /* Assets.xcassets in Resources */,
-				E5B69ABA2142C90400ECBFC5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +392,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B4D41E2329B33FD51BAB542F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeiYiJiaStoreUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD7B28F188E07309A2A049CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeiYiJiaStoreTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4E69651B07E9D3B30310891 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeiYiJiaStore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E5B69AAB2142C90400ECBFC5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5B69AB72142C90400ECBFC5 /* ViewController.m in Sources */,
 				E5B69AC22142C90500ECBFC5 /* main.m in Sources */,
+				E5F5783E214E848000336682 /* AppDelegate+Privacy.m in Sources */,
 				E5B69AB42142C90400ECBFC5 /* AppDelegate.m in Sources */,
+				E5F57841214E849100336682 /* AppDelegate+PushNotification.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +493,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E5B69AB82142C90400ECBFC5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E5B69AB92142C90400ECBFC5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E5B69ABD2142C90500ECBFC5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -431,10 +616,13 @@
 		};
 		E5B69ADC2142C90500ECBFC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07B86B388907BC4CA8310C9A /* Pods-MeiYiJiaStore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MeiYiJiaStore/Info.plist;
+				GCC_PREFIX_HEADER = "MeiYiJiaStore/MeiYiJiaStore-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/MeiYiJiaStore/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -447,10 +635,13 @@
 		};
 		E5B69ADD2142C90500ECBFC5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B896D73FAD5204D82CBE16F7 /* Pods-MeiYiJiaStore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MeiYiJiaStore/Info.plist;
+				GCC_PREFIX_HEADER = "MeiYiJiaStore/MeiYiJiaStore-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/MeiYiJiaStore/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -463,6 +654,7 @@
 		};
 		E5B69ADF2142C90500ECBFC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 459BDE3209A9CB276DCAAD28 /* Pods-MeiYiJiaStoreTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -481,6 +673,7 @@
 		};
 		E5B69AE02142C90500ECBFC5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E590EC2BCCEBFEF9F80B4592 /* Pods-MeiYiJiaStoreTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +692,7 @@
 		};
 		E5B69AE22142C90500ECBFC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C56030930C40452840EFC675 /* Pods-MeiYiJiaStoreUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MeiYiJiaStoreUITests/Info.plist;
@@ -516,6 +710,7 @@
 		};
 		E5B69AE32142C90500ECBFC5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28CC386E3B03F2644A620F7C /* Pods-MeiYiJiaStoreUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MeiYiJiaStoreUITests/Info.plist;
